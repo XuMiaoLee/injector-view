@@ -39,7 +39,7 @@ dependencies {
     compile project(':injector-view')
 }
 
-//// 创建复制jar包的任务 2017/4/19 11:14
+// 创建复制jar包的任务 2017/4/19 11:14
 //task processorTask(type: Exec) {
 //    commandLine 'cp', '../compiler/build/libs/compiler.jar', 'libs/'
 //}

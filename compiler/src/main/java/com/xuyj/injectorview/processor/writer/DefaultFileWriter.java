@@ -47,7 +47,6 @@ public class DefaultFileWriter extends AbstractWriter
     {
         writer.write("package " + info.getPackageName() + ";");
         writer.write("\n\n");
-        writer.write("import android.widget.TextView;");
         writer.write("\n");
         writer.write("public class " + info.getCreatorClassName() + "{");
         writer.write("\n\n");
